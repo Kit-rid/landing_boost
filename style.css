@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+
+
+body {
+    width: 1440px;
+    height: 100%;
+    background-color: #004AAD;
+    font-family: 'Just Me Again Down Here';
+    font-optical-sizing: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 83px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.menu {
+    margin-left: 400px;
+    display: flex;
+    grid-gap: 80px;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.menu a{
+    font-size: 40px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.menu :hover{
+    padding-top: 15px;
+    color: #FF0000;
+    transition: color 0.2s ease;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+.menu :active {
+    color: #000000;
+    transition: color 0.1s ease;
+    transition: 0.1s ease;
+}
+
+.header button {
+    margin-top: 30px;
+    padding-bottom: 5px;
+    font-family: 'Just Me Again Down Here';
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 16px;
+    width: 151px;
+    height: 77px;
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+.but_head :hover {
+    margin-bottom: 15px;
+    background-color: #7204045b ;
+    transition: color 0.2s ease;
+    transition: 0.2s ease;
+}
+
+.but_head :active {
+    color: #FF0000;
+    transition: color 0.1s ease;
+    transition: 0.1s ease;
+}
+
+.block-1 {
+    margin-top: 70px;
+    margin-left: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-1 h1 {
+    margin-left: 100px;
+    color: #fff;
+    font-size: 144px;
+    font-weight: 400;
+}
+
+.boost_main {
+    position: absolute;
+    margin-top: 269px;
+    margin-left: 1740px;
+}
+
+.block-1_text {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+
+.block-1_text h2 {
+    margin-top: 250px;
+    margin-left: 345px;
+    color: #fff;
+    font-size: 76px;
+    font-weight: 400;
+}
+
+.social-media {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 100px;
+    margin-left: 450px;
+}
+
+.but_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 630px;
+    width: 650px;
+    height: 39px;
+    background-color: #FFFFFF4D;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 39px;
+}
+
+.block-2 {
+    display: block;
+    background-color: #fff;
+    width: 1895px;
+    height: 650px;
+}
+
+.circle {
+    position: absolute;
+    display: flex;
+    width: 310px;
+    height: 310px;
+    background-color: #004AAD;
+    border-radius: 50%;
+    margin-top: 160px;
+    margin-left: 330px;
+}
+
+.boost {
+    border-radius: 50%;
+}
+
+.block-2 h1 {
+    font-size: 83px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 550px;
+    padding-top: 40px;
+}
+
+.block-2 h2 {
+    font-weight: 400;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 600px;
+    font-family: 'Long Cang';
+    line-height: 36px;
+}
+
+.flow_money {
+    position: absolute;
+    margin-left: 1550px;
+    margin-top: 150px;
+}
+
+.block-3 {
+    width: 1440px;
+    height: 696px;
+    display: block;
+}
+
+.block-3 h1 {
+    color: #fff;
+    font-size: 100px;
+    font-weight: 400;
+    margin-left: 200px;
+    margin-bottom: -30px;
+}
+
+
+.block-3 p {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 65.91px;
+}
+
+.block-3 h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Long Cang';
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 200px;
+}
+
+.container a {
+    color: #fff;
+    outline: none;
+}
+
+.text_go-to {
+    position: absolute;
+    margin-left: 480px;
+    margin-top: 400px;;
+
+}
+
+.block-4 {
+    display: block;
+    margin-top: 150px;
+    text-align: center;
+    background-color: #fff;
+    width: 1895px;
+    height: 3250px;
+}
+
+.block-4 .image-pos {
+    margin-right: 30px;
+}
+
+.block-4 .image-choco {
+    margin-top: 70px;
+}
+
+.footer {
+    display: flex;
+    width: 1895px;
+    height: 346px;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h1 {
+    font-weight: 400;
+    font-size: 44px;
+    text-align: center;
+    color: #fff;
+}
